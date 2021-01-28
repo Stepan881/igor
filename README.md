@@ -1,1 +1,1 @@
-[Git - Page](https://stepan881.github.io/stepan/app/)
+[Git - Page](https://stepan881.github.io/igor/app/)
