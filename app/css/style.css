@@ -491,7 +491,9 @@ form {
     position: absolute;
     right: 30px;
     top: 15px;
+    max-width: 40px;
     width: 40px;
+    max-height: 40px;
     height: 40px;
     border: none;
     display: none;
@@ -507,18 +509,19 @@ form {
       -webkit-transition: 0.3s;
       transition: 0.3s;
       opacity: .7; }
+    .header__btn svg {
+      max-width: 40px;
+      width: 40px;
+      max-height: 40px;
+      height: 40px; }
     .header__btn .header__btn-open-ico {
       display: block; }
     .header__btn .header__btn-close-ico {
       display: none; }
     .header__btn--open .header__btn-open-ico {
-      display: none;
-      width: auto;
-      height: auto; }
+      display: none; }
     .header__btn--open .header__btn-close-ico {
-      display: block;
-      width: auto;
-      height: auto; }
+      display: block; }
 
 .nav {
   margin: 0 auto;
