@@ -435,6 +435,9 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 100%; }
 
 .nav__item {
@@ -581,10 +584,26 @@ h1 {
 
 .services__wrapper-img {
   width: 50%;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center; }
 
 .services__content {
   margin-bottom: 15px; }
+
+.services__wrapper-btn {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px auto;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background: #f4f4f4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .services__wrapper-btn:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background: #3754fc;
+    color: #f4f4f4; }
 
 .footer__wrapper {
   padding-top: 50px;
