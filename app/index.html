@@ -74,7 +74,7 @@
         <il class="nav__list">
           <li class="nav__item"><a href="#!">О сервисе</a></li>
           <li class="nav__item"><a href="#!">Как это работает</a></li>
-          <li class="nav__item"><a href="#!">Время работы</a></li>
+          <li class="nav__item"><a href="#!">Часы работы</a></li>
           <li class="nav__item"><a href="#!">Оплата</a></li>
           <li class="nav__item"><a href="#!">Инструменты</a></li>
           <li class="nav__item"><a href="#!">Видео</a></li>
@@ -280,25 +280,20 @@
       <div class="review__wrapper container">
         <h2 class="review__header title">Оставить заявку</h2>
         <div class="review__block">
-          <form action="#" method="POST">
-            <div class="c">
-              <label for="name">Ваше имя</label>
-              <input type="text" id="name" name="Имя">
+          <form class="review__form form" action="#" method="POST">
+            <div class="form__wrapper">
+              <label class="form__label" for="name">Ваше имя</label>
+              <input class="form__input" type="text" id="name" name="Имя">
             </div>
-            <div class="c">
-              <label for="mail">Ваша почта</label>
-              <input type="text" id="mail" name="Почта">
+            <div class="form__wrapper">
+              <label class="form__label" for="mail">Ваша почта</label>
+              <input class="form__input" type="text" id="mail" name="Почта">
             </div>
-            <div class="c">
-              <label for="description">Ваша проблема</label>
-              <textarea name="Описание" id="description" cols="30" rows="10"></textarea>
+            <div class="form__wrapper">
+              <label class="form__label"  for="description">Ваша проблема</label>
+              <textarea class="form__textarea" name="Описание" id="description" cols="30" rows="10"></textarea>
             </div>
-
-
-
-
-
-            <button type="submit">Отправить</button>
+            <button class="form__submit" type="submit">Отправить</button>
           </form>
         </div>
       </div>
