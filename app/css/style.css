@@ -443,7 +443,7 @@ form {
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .header--active {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(149, 140, 250, 0.1);
     -webkit-box-shadow: none;
             box-shadow: none;
     color: #fff; }
@@ -496,8 +496,8 @@ form {
 
 .first-screen {
   background: #f0f0f0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3754fc), to(#f4f4f4));
-  background: linear-gradient(#3754fc, #f4f4f4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#958CFA), to(#f4f4f4));
+  background: linear-gradient(#958CFA, #f4f4f4);
   background-position: center;
   width: 100%;
   background-size: cover; }
