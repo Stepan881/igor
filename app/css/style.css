@@ -626,9 +626,7 @@ h1 {
     font-size: 32px;
     line-height: 36px; }
   .first-screen__text {
-    margin-top: 10px;
     width: 100%;
-    margin-top: 20px;
     font-weight: bold;
     text-align: center; }
   .first-screen__list {
@@ -667,7 +665,7 @@ h1 {
   .first-screen__wrapper-img {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 70px;
     z-index: 1; }
     .first-screen__wrapper-img img {
       max-width: 200px; }
@@ -688,7 +686,7 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    top: 50px;
+    top: 130px;
     right: 0;
     max-width: 760px;
     z-index: 1; }
