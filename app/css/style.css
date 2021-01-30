@@ -341,6 +341,28 @@ body {
   background: #f4f4f4;
   color: #000000; }
 
+.header__status-offline {
+  display: none; }
+
+.header__status-online {
+  display: none; }
+
+body.on .header__status-offline {
+  display: none; }
+
+body.on .header__status-online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body.off .header__status-offline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body.off .header__status-online {
+  display: none; }
+
 .visually-hidden {
   position: absolute;
   height: 1px;
@@ -453,8 +475,6 @@ h1 {
                 transform: translate(0, -50%); }
         .header__status img {
           width: 90px; } }
-    .header__status .header__status-offline {
-      display: none; }
   .header__logo-link {
     width: 90px;
     display: -webkit-box;
