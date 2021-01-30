@@ -394,7 +394,7 @@ img {
   padding: 0 20px; }
 
 h1 {
-  text-shadow: 1px 1px 2px white, 0 0 1em black;
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
   /* Параметры тени */ }
 
 .title {
@@ -416,7 +416,8 @@ h1 {
           box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #000000; }
+  color: #000000;
+  padding: 5px 0; }
   .header .nav a {
     color: #000000; }
   .header--active {
@@ -561,8 +562,7 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100vh;
-    min-height: 700px;
+    min-height: 100vh;
     position: relative; }
     @media (max-width: 1040px) {
       .first-screen__wrapper {
@@ -572,8 +572,7 @@ h1 {
         padding-top: 100px;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center;
-        min-height: 500px; } }
+                justify-content: center; } }
   .first-screen__content {
     display: -webkit-box;
     display: -ms-flexbox;
