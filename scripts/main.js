@@ -44,21 +44,20 @@ openMenu();
 
 function scroll() {
   const nav = document.querySelector(`nav.nav`);
-  nav.querySelectorAll('a[href^="#"').forEach(link => {
-
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        let href = this.getAttribute('href').substring(1);
-        const scrollTarget = document.getElementById(href);
-        const topOffset = document.querySelector('.header').offsetHeight;
-        const elementPosition = scrollTarget.getBoundingClientRect().top;
-        const offsetPosition = elementPosition - topOffset;
-        window.scrollBy({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    });
-});
+  const smoothLinks = nav.querySelectorAll('a[href^="#"]');
+  for (let smoothLink of smoothLinks) {
+      smoothLink.addEventListener('click', function (e) {
+          e.preventDefault();
+          const id = smoothLink.getAttribute('href');
+  
+          document.querySelector(id).scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+          });
+          document.querySelector(`.nav`).classList.add(`nav--close`)
+      });
+  };
+  
 }
 
 scroll();
