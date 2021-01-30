@@ -23,6 +23,10 @@
 
   <header class="header header--active">
     <div class="header__wrapper container">
+      <div class="header__status">
+        <img class="header__status-online" src="./img/online.png" alt="online">
+        <img class="header__status-offline" src="./img/offline.png" alt="offline">
+      </div>
       <a class="header__logo-link" href="./index.html">
         <img class="header__logo" src="./img/avatar.jpg" alt="Логотип">
       </a>
@@ -312,37 +316,13 @@
           <div class="services__left">
             <p class="services__content">В современное время</p>
           </div>
-        </div>
-        <a class="services__wrapper-btn" href="#review">Обратится за помощью</a>
-      </div>
-    </section>
-    <section class="review" id="review" style="background: #ffffff">
-      <div class="review__wrapper container">
-        <h2 class="review__header title">Оставить заявку</h2>
-        <div class="review__block">
-          <form class="review__form form" action="#" method="POST">
-            <div class="form__wrapper">
-              <label class="form__label js-label" for="name">Ваше имя</label>
-              <input class="form__input" type="text" id="name" name="Имя">
-            </div>
-            <div class="form__wrapper">
-              <label class="form__label" for="mail">Ваша почта</label>
-              <input class="form__input" type="text" id="mail" name="Почта">
-            </div>
-            <div class="form__wrapper">
-              <label class="form__label" for="description">Ваша проблема</label>
-              <textarea class="form__textarea" name="Описание" id="description" cols="30" rows="10"></textarea>
-            </div>
-            <button class="form__submit" type="submit">Отправить</button>
-          </form>
+          <a class="services__wrapper-btn" href="#review">Обратится за помощью</a>
         </div>
       </div>
     </section>
-
-
   </main>
 
-  <footer class="footer">
+  <footer class="footer" style="background: #ffffff">
     <div class="footer__wrapper container">
       <h2 class="visually-hidden">Контакты</h2>
       <ul class="footer__list">
