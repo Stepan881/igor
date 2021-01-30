@@ -55,6 +55,7 @@ function scroll() {
               block: 'start'
           });
           document.querySelector(`.nav`).classList.add(`nav--close`)
+          document.querySelector(`.header__btn`).classList.remove(`header__btn--open`)
       });
   };
   
