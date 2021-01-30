@@ -463,16 +463,11 @@ h1 {
   .header__status {
     width: 90px;
     position: absolute;
-    top: calc(100% + 10px); }
+    top: 100%; }
     @media (max-width: 768px) {
       .header__status {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         width: 90px;
-        top: 50%;
-        -webkit-transform: translate(0, -50%);
-                transform: translate(0, -50%); }
+        top: 20px; }
         .header__status img {
           width: 90px; } }
   .header__logo-link {
@@ -680,7 +675,8 @@ h1 {
         padding-left: 0px; } }
     @media (max-width: 768px) {
       .first-screen__list {
-        padding-left: 25px; } }
+        padding-left: 25px;
+        padding-right: 0; } }
     .first-screen__list li {
       margin-top: 8px;
       position: relative; }
