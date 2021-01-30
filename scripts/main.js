@@ -35,8 +35,8 @@ function openMenu() {
   btn.addEventListener(`click`, evt => {
     evt.preventDefault();
 
-    menu.classList.toggle(`nav--close`)
-    btn.classList.toggle(`header__btn--open`)
+    menu.classList.toggle(`nav--close`);
+    btn.classList.toggle(`header__btn--open`);
   })
 
 };
@@ -54,8 +54,8 @@ function scroll() {
               behavior: 'smooth',
               block: 'start'
           });
-          document.querySelector(`.nav`).classList.add(`nav--close`)
-          document.querySelector(`.header__btn`).classList.remove(`header__btn--open`)
+          document.querySelector(`.nav`).classList.add(`nav--close`);
+          document.querySelector(`.header__btn`).classList.remove(`header__btn--open`);
       });
   };
   
