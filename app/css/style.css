@@ -424,6 +424,21 @@ h1 {
   text-shadow: 1px 1px 2px white, 0 0 1em black;
   /* Параметры тени */ }
 
+.red {
+  color: red;
+  font-weight: bold; }
+
+.green {
+  color: green;
+  font-weight: bold; }
+
+.orange {
+  color: orange;
+  font-weight: bold; }
+
+.blue {
+  color: blue; }
+
 .header {
   position: fixed;
   z-index: 1;
@@ -691,7 +706,7 @@ h1 {
         border-radius: 50%; }
     .first-screen__list a {
       text-decoration: underline;
-      color: #4b4a4a;
+      color: red;
       -webkit-transition: 0.3s;
       transition: 0.3s; }
       .first-screen__list a:hover {
@@ -777,7 +792,7 @@ h1 {
   text-align: center; }
 
 .services__block {
-  margin-top: 20px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -790,7 +805,8 @@ h1 {
           flex-direction: column; }
 
 .services__left {
-  max-width: 700px; }
+  max-width: 700px;
+  font-weight: normal; }
   @media (max-width: 768px) {
     .services__left {
       width: 100%; } }
@@ -806,7 +822,18 @@ h1 {
     width: 100px; }
 
 .services__content {
-  margin-bottom: 15px; }
+  font-family: serif;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px; }
+  @media (max-width: 768px) {
+    .services__content {
+      font-size: 18px;
+      line-height: 22px; } }
+  .services__content--bold {
+    font-weight: 900;
+    text-align: center; }
 
 .services__wrapper-btn {
   display: -webkit-inline-box;
