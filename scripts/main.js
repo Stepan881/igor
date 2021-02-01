@@ -7,7 +7,6 @@ window.addEventListener('scroll', function () {
 let windowWidth = window.innerWidth;
 window.addEventListener(`resize`, () => {
   windowWidth = window.innerWidth;
-  console.log('windowWidth: ', windowWidth);
 })
 
 function headerColor() {
