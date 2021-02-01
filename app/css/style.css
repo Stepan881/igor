@@ -426,18 +426,42 @@ h1 {
 
 .red {
   color: red;
-  font-weight: bold; }
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .red:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0.7; }
 
 .green {
   color: green;
-  font-weight: bold; }
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .green:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0.7; }
 
 .orange {
   color: orange;
-  font-weight: bold; }
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .orange:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0.7; }
 
 .blue {
-  color: blue; }
+  color: blue;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .blue:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0.7; }
 
 .header {
   position: fixed;
@@ -766,19 +790,15 @@ h1 {
   width: 90%;
   margin: 30px 0;
   border-spacing: 0; }
-  .services .table caption {
-    padding: 5px 0;
-    text-align: center;
-    margin: 0 auto; }
   .services .table tr {
     width: 100%; }
   .services .table__head {
-    width: 70%;
+    width: 65%;
     padding-right: 20px;
     padding-top: 20px;
     border-bottom: 1px solid #958CFA; }
   .services .table__price {
-    width: 30%;
+    width: 35%;
     font-weight: bold;
     vertical-align: bottom;
     text-align: right;
