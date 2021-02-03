@@ -347,20 +347,20 @@ body {
 .header__status-online {
   display: none; }
 
-body.on .header__status-offline {
+html.on .header__status-offline {
   display: none; }
 
-body.on .header__status-online {
+html.on .header__status-online {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-body.off .header__status-offline {
+html.off .header__status-offline {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-body.off .header__status-online {
+html.off .header__status-online {
   display: none; }
 
 .visually-hidden {
