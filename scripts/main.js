@@ -79,3 +79,18 @@ function scrollBtn() {
 
 }
 scrollBtn();
+
+function toggleLogo() {
+  const html = document.querySelector(`html`);
+
+  const today = new Date(); // 0 6 
+  // console.log(today.getDay() +" : "+ today.getUTCHours() + 3 + ":" + today.getUTCMinutes());
+  if (!((today.getUTCHours() + 3) >= 10 && 
+      (today.getUTCHours() + 3) < 18 && 
+      today.getDay() !== 0 && 
+      today.getDay() !== 6)) {
+    html.classList.remove(`on`);
+    html.classList.add(`off`);
+  }
+}
+toggleLogo();
