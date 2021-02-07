@@ -477,6 +477,28 @@ h1 {
     transition: 0.3s;
     opacity: 0.7; }
 
+.underline {
+  text-decoration: underline;
+  background: #f4f4f4;
+  z-index: 1;
+  position: relative; }
+
+.line-bottom {
+  position: relative;
+  background: #f4f4f4;
+  overflow: hidden; }
+  .line-bottom::after {
+    content: '..........................................................................................................';
+    position: absolute;
+    letter-spacing: 6px;
+    font-size: 25px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: 3px; }
+    @media (max-width: 768px) {
+      .line-bottom::after {
+        font-size: 20px; } }
+
 .header {
   position: fixed;
   z-index: 1;
@@ -867,11 +889,11 @@ h1 {
     left: 0; }
 
 .services__content {
-  font-family: serif;
+  font-family: Lato;
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 24px;
-  line-height: 24px; }
+  line-height: 28px; }
   @media (max-width: 768px) {
     .services__content {
       font-size: 16px;
@@ -885,6 +907,8 @@ h1 {
       .services__content--bold {
         font-size: 16px;
         line-height: 20px; } }
+  .services__content a {
+    float: right; }
 
 .services__wrapper-btn {
   display: -webkit-inline-box;
